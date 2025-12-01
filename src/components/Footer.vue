@@ -18,10 +18,10 @@
           </nav>
           <div class="flex items-center gap-2" aria-label="Social media">
             <a href="#" class="h-9 w-9 rounded-full bg-[#F2F5F2] text-[#2F4A40] flex items-center justify-center text-xs font-medium hover:bg-[#E6EFE9] focus:outline-none focus:ring-2 focus:ring-[#9FC5B3]" aria-label="Instagram">
-              <img src="/assets/brand-instagram.svg"/>
+              <img src="@/assets/brand-instagram.svg"/>
             </a>
             <a href="#" class="h-9 w-9 rounded-full bg-[#F2F5F2] text-[#2F4A40] flex items-center justify-center text-xs font-medium hover:bg-[#E6EFE9] focus:outline-none focus:ring-2 focus:ring-[#9FC5B3]" aria-label="TikTok">
-              <img src="/assets/brand-tiktok.svg"/>
+              <img src="@/assets/brand-tiktok.svg"/>
             </a>
           </div>
         </div>

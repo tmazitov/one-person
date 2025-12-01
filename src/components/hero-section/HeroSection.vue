@@ -6,16 +6,16 @@
       <div class="absolute inset-0 bg-gradient-to-b from-white/30 via-white/50 to-[#F6F7F4]">
           
         <div class="fog">
-          <img src="/assets/fog1.png" style="--i: 1;" />
-          <img src="/assets/fog2.png" style="--i: 2;" />
-          <img src="/assets/fog3.png" style="--i: 3;" />
-          <img src="/assets/fog4.png" style="--i: 4;" />
-          <img src="/assets/fog5.png" style="--i: 5;" />
-          <img src="/assets/fog1.png" style="--i: 10;" />
-          <img src="/assets/fog2.png" style="--i: 9;" />
-          <img src="/assets/fog3.png" style="--i: 8;" />
-          <img src="/assets/fog4.png" style="--i: 7;" />
-          <img src="/assets/fog5.png" style="--i: 6;" />
+          <img src="@/assets/fog1.png" style="--i: 1;" />
+          <img src="@/assets/fog2.png" style="--i: 2;" />
+          <img src="@/assets/fog3.png" style="--i: 3;" />
+          <img src="@/assets/fog4.png" style="--i: 4;" />
+          <img src="@/assets/fog5.png" style="--i: 5;" />
+          <img src="@/assets/fog1.png" style="--i: 10;" />
+          <img src="@/assets/fog2.png" style="--i: 9;" />
+          <img src="@/assets/fog3.png" style="--i: 8;" />
+          <img src="@/assets/fog4.png" style="--i: 7;" />
+          <img src="@/assets/fog5.png" style="--i: 6;" />
         </div>
       
       </div>

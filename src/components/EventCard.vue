@@ -11,7 +11,7 @@
     <div class="relative flex-1">
       <!-- Фоновое изображение -->
       <img
-        src="/assets/teapot-background.png"
+        src="@/assets/teapot-background.png"
         alt="Teapot"
         class="absolute right-0 h-full object-cover opacity-10 pointer-events-none "
       />
