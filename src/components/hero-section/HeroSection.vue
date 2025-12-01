@@ -6,16 +6,16 @@
       <div class="absolute inset-0 bg-gradient-to-b from-white/30 via-white/50 to-[#F6F7F4]">
           
         <div class="fog">
-          <img src="@/assets/fog1.png" style="--i: 1;" />
-          <img src="@/assets/fog2.png" style="--i: 2;" />
-          <img src="@/assets/fog3.png" style="--i: 3;" />
-          <img src="@/assets/fog4.png" style="--i: 4;" />
-          <img src="@/assets/fog5.png" style="--i: 5;" />
-          <img src="@/assets/fog1.png" style="--i: 10;" />
-          <img src="@/assets/fog2.png" style="--i: 9;" />
-          <img src="@/assets/fog3.png" style="--i: 8;" />
-          <img src="@/assets/fog4.png" style="--i: 7;" />
-          <img src="@/assets/fog5.png" style="--i: 6;" />
+          <img :src="fog1Img" style="--i: 1;" />
+          <img :src="fog2Img" style="--i: 2;" />
+          <img :src="fog3Img" style="--i: 3;" />
+          <img :src="fog4Img" style="--i: 4;" />
+          <img :src="fog5Img" style="--i: 5;" />
+          <img :src="fog1Img" style="--i: 10;" />
+          <img :src="fog2Img" style="--i: 9;" />
+          <img :src="fog3Img" style="--i: 8;" />
+          <img :src="fog4Img" style="--i: 7;" />
+          <img :src="fog5Img" style="--i: 6;" />
         </div>
       
       </div>
@@ -41,6 +41,11 @@
 
 <script setup>
 import UButton from '../utils/UButton.vue';
+import fog1Img from '@/assets/fog1.png';
+import fog2Img from '@/assets/fog2.png';
+import fog3Img from '@/assets/fog3.png';
+import fog4Img from '@/assets/fog4.png';
+import fog5Img from '@/assets/fog5.png';
 
 defineProps({
   image: String,

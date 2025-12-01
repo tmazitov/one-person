@@ -29,7 +29,7 @@
                     @click="isShowMenuToggle"
                     class="flex flex-col justify-between w-8 h-full focus:outline-none"
                 >
-                    <img src="@/assets/menu-2.svg" />
+                    <img :src="menuIconImg" />
                 </button>
             </span>
 
@@ -53,10 +53,10 @@
                 <div class="flex gap-3">
                     <UButton title="Book a Ceremony" classNames="flex-1"/>
                         <a href="#" class="h-12 w-12 rounded-full bg-[#F2F5F2] text-[#2F4A40] flex items-center justify-center text-xs font-medium hover:bg-[#E6EFE9] focus:outline-none focus:ring-2 focus:ring-[#9FC5B3]" aria-label="Instagram">
-                            <img src="@/assets/brand-instagram.svg"/>
+                            <img :src="instagramImg"/>
                         </a>
                         <a href="#" class="h-12 w-12 rounded-full bg-[#F2F5F2] text-[#2F4A40] flex items-center justify-center text-xs font-medium hover:bg-[#E6EFE9] focus:outline-none focus:ring-2 focus:ring-[#9FC5B3]" aria-label="TikTok">
-                            <img src="@/assets/brand-tiktok.svg"/>
+                            <img :src="tiktokIconImg"/>
                         </a>
 
                 </div>
@@ -71,9 +71,12 @@
 </template>
 
 <script setup>
+import menuIconImg from "@/assets/menu-2.svg"
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import UButton from './utils/UButton.vue'
 import UMenu from './utils/UMenu.vue'
+import tiktokIconImg from '@/assets/brand-tiktok.svg'
+import instagramImg from '@/assets/brand-instagram.svg'
 
 const isHidden = ref(true)
 const isShowMenu = ref(false)

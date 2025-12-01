@@ -11,7 +11,7 @@
     <div class="relative flex-1">
       <!-- Фоновое изображение -->
       <img
-        src="@/assets/teapot-background.png"
+        :src="backgroundImg"
         alt="Teapot"
         class="absolute right-0 h-full object-cover opacity-10 pointer-events-none "
       />
@@ -25,6 +25,8 @@
 </template>
 
 <script setup>
+import backgroundImg from "@/assets/teapot-background.png"
+
 defineProps({
   image: String,
   title: String,
