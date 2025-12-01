@@ -1,5 +1,5 @@
 <template>
-  <Header :hideNavbar="hideNavbar" />
+  <Header />
 
   <main id="main">
     <HeroSection
@@ -13,8 +13,15 @@
 
     <Products :teaSets="teaSets" :teas="teas"/>
 
+    <ColivingSection 
+        image="/assets/coliving.png" 
+        :paragraphs="[
+            'Rent a private room in a warm, friendly villa community and enjoy a calm environment with shared tea ceremonies that bring people together..'
+        ]"
+    />
+
     <EventsSection :events="events" />
-    
+        
     <CTA/>
   </main>
 
@@ -29,19 +36,18 @@ import HeroSection from '../components/hero-section/HeroSection.vue'
 import BrandStory from '../components/BrandStory.vue'
 import Products from '../components/products/Products.vue'
 import EventsSection from '../components/EventsSection.vue'
-
-const hideNavbar = false
+import ColivingSection from '../components/coliving/ColivingSection.vue'
 
 const hero = {
   image: '/assets/hero.png',
   title: 'Serve Your Own Space.',
-  subtitle: 'Modern tea rituals for everyone.',
-  description: 'Yi Ren (一人) is for digital nomads...'
+  subtitle: 'Yi Ren (一人).',
+  description: 'A place for digital nomads and anyone who enjoys a calm lifestyle and the taste of fine tea.'
 }
 
 const storyImage = '/assets/about.png'
 const storyParagraphs = [
-  'A great place to unwind with delightful tea, joyful flavors, and a calm atmosphere.',
+  'Our goal is to offer people a welcoming place to unwind, enjoy fine tea, and soak in a calm, comforting atmosphere.'
 ]
 
 // заглушки

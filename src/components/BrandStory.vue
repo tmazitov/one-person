@@ -1,6 +1,6 @@
 <template>
-  <section id="about" class="py-16 sm:py-24">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center px-4">
+  <section id="about" class="py-16 bg-white sm:py-32">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 sm:gap-10 gap-4 items-center px-4">
       <div>
         <h2 class="text-3xl sm:text-4xl font-serif text-[#1E2B26]">
           Yi Ren (一人) — One Person

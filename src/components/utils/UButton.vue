@@ -1,6 +1,6 @@
 <template>
   <button
-    :class="`${styles} relative rounded-full px-3.5 py-2 font-medium select-none transition-all duration-300 ease-out cursor-pointer`"
+    :class="`${styles} relative rounded-full px-3.5 py-2 font-medium select-none transition-all duration-300 ease-out cursor-pointer ${classNames}`"
     @mousedown="isPressed = true"
     @mouseup="isPressed = false"
     @mouseleave="isPressed = false"
@@ -21,6 +21,7 @@ const props = defineProps({
   href: String,
   outlined: Boolean,
   reverse: Boolean,
+  classNames: String,
 })
 
 const styles = computed(() => {

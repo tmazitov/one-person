@@ -1,6 +1,6 @@
 <template>
   <article
-    class="group bg-white rounded-2xl border border-[#E6E9E4] p-4 flex flex-col
+    class="group bg-white border border-[#E6E9E4] p-4 flex flex-col
            cursor-pointer transform transition-all duration-300 ease-out
            hover:-translate-y-2 hover:shadow-lg hover:border-gray-300"
   >
@@ -8,7 +8,7 @@
       <img
         :src="image"
         alt="Product Image"
-        class="rounded-xl aspect-square w-full object-cover transition-transform duration-300 ease-out
+        class="rounded-lg aspect-square w-full object-cover transition-transform duration-300 ease-out
                group-hover:scale-105"
       />
     </div>

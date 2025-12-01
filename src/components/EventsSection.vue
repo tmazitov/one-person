@@ -1,5 +1,5 @@
 <template>
-  <section id="events" class="py-16 sm:py-24">
+  <section id="events" class="py-16 sm:py-32">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-3xl sm:text-4xl font-serif text-[#1E2B26]">Upcoming Events</h2>
 

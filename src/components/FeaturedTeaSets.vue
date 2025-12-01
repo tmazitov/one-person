@@ -1,5 +1,5 @@
 <template>
-  <section id="tea-sets" class="py-16 sm:py-24">
+  <section id="tea-sets" class="py-16 sm:py-32">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-3xl sm:text-4xl font-serif text-[#1E2B26]">Featured Tea Sets</h2>
       <p class="mt-2 text-[#50695E]">Compact, refined, made for solo tea time.</p>

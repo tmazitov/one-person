@@ -1,6 +1,6 @@
 <template>
-<article class="group bg-white rounded-2xl border border-[#E6E9E4] p-4 flex flex-col">
-    <div class="relative rounded-lg overflow-hidden">
+<article class="group bg-white  border border-[#E6E9E4] p-4 flex flex-col">
+    <div class="relative  overflow-hidden">
     <!-- 3/5 gen-image: Product main -->
         <img :src="image" alt="product-solo-gongfu" />
     </div>

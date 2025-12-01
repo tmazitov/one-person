@@ -1,5 +1,5 @@
 <template>
-    <section id="cta" aria-labelledby="cta-title" class="py-16 sm:py-24 bg-[#2F4A40] text-white">
+    <section id="cta" aria-labelledby="cta-title" class="py-16 sm:py-32 bg-[#2F4A40] text-white">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-3 gap-10 items-center">
             <div class="md:col-span-2">
                 <h2 id="cta-title" class="text-3xl sm:text-4xl font-serif">Don't know how to start?</h2>

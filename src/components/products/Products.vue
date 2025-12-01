@@ -1,5 +1,5 @@
 <template>
-  <section id="shop" class="py-16 sm:py-24 bg-[#F8FAF8]">
+  <section id="shop" class="py-16 sm:py-32 bg-[#F8FAF8]">
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-3xl sm:text-4xl font-serif text-[#1E2B26]">Our products</h2>
       <p class="mt-4 text-[#50695E]">

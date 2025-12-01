@@ -3,6 +3,9 @@
     class="w-full overflow-hidden"
     @mouseenter="isHover = true"
     @mouseleave="isHover = false"
+    @touchstart="onTouchStart"
+    @touchmove="onTouchMove"
+    @touchend="onTouchEnd"
   >
     <!-- Карусель -->
     <div
@@ -114,4 +117,41 @@ onBeforeUnmount(() => {
 watch(pageCount, (newPc) => {
   if (index.value >= newPc) index.value = 0
 })
+
+// swipe logic
+const startX = ref(0)
+const currentX = ref(0)
+const isSwiping = ref(false)
+
+function onTouchStart(e) {
+  stopAuto()
+  startX.value = e.touches[0].clientX
+  currentX.value = startX.value
+  isSwiping.value = true
+}
+
+function onTouchMove(e) {
+  if (!isSwiping.value) return
+  currentX.value = e.touches[0].clientX
+}
+
+function onTouchEnd() {
+  if (!isSwiping.value) return
+  const diff = currentX.value - startX.value
+
+  const threshold = 50 // минимальное расстояние свайпа
+
+  if (diff > threshold) {
+    // swipe right
+    index.value = Math.max(0, index.value - 1)
+  } else if (diff < -threshold) {
+    // swipe left
+    index.value = Math.min(pageCount.value - 1, index.value + 1)
+  }
+
+  isSwiping.value = false
+  startAuto()
+}
+
+
 </script>
