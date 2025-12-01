@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
 plugins: [vue()],
-base: './',
+base: '/one-person/',
 build: { outDir: 'dist', emptyOutDir: true }
 })
