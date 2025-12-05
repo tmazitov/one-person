@@ -38,7 +38,7 @@ import BrandStory from '../components/BrandStory.vue'
 import Products from '../components/products/Products.vue'
 import EventsSection from '../components/EventsSection.vue'
 import ColivingSection from '../components/coliving/ColivingSection.vue'
-import heroImg from '@/assets/hero.png'
+import heroImg from '@/assets/hero-2.png'
 import aboutImg from '@/assets/about.png'
 import teaSetImg from "@/assets/tea-set.png"
 import teaImg from "@/assets/tea.png"
@@ -47,7 +47,8 @@ import tea3Img from "@/assets/tea-3.png"
 import tea4Img from "@/assets/tea-4.png"
 import tea5Img from "@/assets/tea-5.png"
 import tea6Img from "@/assets/tea-6.png"
-import morningImg from "@/assets/morning-ceremony.png"
+import tea7Img from "@/assets/tea-7.png"
+import teapot2Img from "@/assets/teapot-2.png"
 
 const hero = {
   image: heroImg,
@@ -56,7 +57,7 @@ const hero = {
   description: 'A place for digital nomads and anyone who enjoys a calm lifestyle and the taste of fine tea.'
 }
 
-const storyImage = aboutImg
+const storyImage = teapot2Img
 const storyParagraphs = [
   'Our goal is to offer people a welcoming place to unwind, enjoy fine tea, and soak in a calm, comforting atmosphere.'
 ]
@@ -114,7 +115,7 @@ const teas = [
         price: "45 AED"
     },
     {
-        image: teaImg,
+        image: tea7Img,
         title: "Shu Pu-erh Mini Cakes",
         description: "Fermented dark tea pressed into small convenient servings for rich earthy brews.",
         price: "52 AED"
@@ -139,21 +140,26 @@ const teas = [
     },
     
 ];
+
+import event1Img from '@/assets/event-1.png'
+import event2Img from '@/assets/event-2.png'
+import event3Img from '@/assets/event-3.png'
+
 const events = [
     {
-        image: morningImg,
+        image: event1Img,
         title: "Gongfu Cha Workshop",
         description: "A 1-hour guided workshop introducing the basics of traditional gongfu tea brewing.",
         date: new Date("2025-02-14T18:00:00")
     },
     {
-        image: morningImg,
+        image: event2Img,
         title: "Tea Tasting: Oolong Edition",
         description: "Explore four types of high-mountain oolongs and learn how to brew each properly.",
         date: new Date("2025-03-01T17:00:00")
     },
     {
-        image: morningImg,
+        image: event3Img,
         title: "Matcha Ceremony Intro",
         description: "A calm and meditative introduction to Japanese matcha preparation and etiquette.",
         date: new Date("2025-03-10T16:00:00")
